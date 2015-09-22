@@ -6,7 +6,7 @@ Based on https://github.com/wdi-sf-july/installfest
 * test as many instructions as possible on clean computer
 * split into multiple readmes so it's not crazy long / hard to read?
 * check that Maverick Xcode/Command Line Tools instructions also apply for Yosemite
-* completely replace Maverick suggestion with 'upgrade to yosemite'
+* completely replace Maverick suggestion with 'upgrade to yosemite'?
 * completely remove ubuntu and windows instructions?
 * copy over images from wdi-sf-july if wanted
 
