@@ -9,13 +9,12 @@ Based on https://github.com/wdi-sf-july/installfest
 * completely replace Maverick suggestion with 'upgrade to yosemite'?
 * completely remove ubuntu and windows instructions?
 * copy over images from wdi-sf-july if wanted  
-* include more detailed instructions for PostgreSQL  
 * sublime and emmet?
 
 ## Done
 
 * commented out ubuntu and windows instructions sections
-* included `brew install postgresql`
+* included instructions for PostgreSQL
 * included instructions for Node.js
 * included instructions for MongoDB
 * added a few notes on what things are / why installing
@@ -232,13 +231,36 @@ If this causes errors on your machine, try running `sudo gem install rails` inst
 
 ### PostgreSQL  
 
-To install the PostgreSQL database, run the following command in your Terminal.
+#### Postgres.app
 
-```
-brew install postgresql
-```
+1. Download [Postgres.app](http://postgresapp.com/).
 
-Run `which psql` in the Terminal to check that PostgreSQL was installed.
+2. Follow Postgress.app's install instructions (move Postgres into your Applications folder).
+    
+3. Follow Postgres.app's [instructions to install command line tools](http://postgresapp.com/documentation/cli-tools.html): 
+  * add Postgres.app to your `$PATH`
+
+      ```bash
+        echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.bash_profile
+      ```
+  * source your `~/.bash_profile`
+
+      ```bash
+      source ~/.bash_profile
+      ```
+  * check that your install worked
+    
+      ```bash
+      which psql
+      ```
+
+
+
+#### Alternate install with homebrew
+
+Do not follow these instructions unless you have already tried the Postgres.app instructions and spoken to a member of the teaching team.  
+
+<a href="http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew/" target="_blank">Instructions for installing postgreSQL with homebrew.</a>
 
 
 <!--#Ubuntu Instructions -->
