@@ -29,7 +29,7 @@ We are going to install most of the tools we'll use in this course onto your com
 
 If you are unsure or run into problems during installation, don't worry; we will finish up any of the loose ends on Installfest.
 	
-## General Mac Development Tools
+##Set 1: General Mac Development Tools
 
 
 Basic Plan:
@@ -78,7 +78,7 @@ Open up the application Terminal and run the command below to install Homebrew.
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
-<!--![image](./install_brew.png)-->
+![image](./install_brew.png)
 
 ####Brew Doctor
 
@@ -124,7 +124,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
      [Generating SSH Keys (via Github.com)](https://help.github.com/articles/generating-ssh-keys)
 
-## Node.js
+## Set 2: Node.js
 
 Basic Plan:
 
@@ -140,9 +140,10 @@ Install Node.js with homebrew by running the following command in the Terminal.
 brew install node
 ```
 
-Run the Terminal command `which node` to check that Node.js was installed. 
 
-Node.js comes with some cool tools, including `node` and `npm`.  The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like from repl.it.  Type `control+C` twice to quite out of the REPL and return to the normal Terminal commands.  The Node Package Manager, used through various `npm` commands, is a lot like Homebrew, except we'll use it for Node.js-specific tools instead of for general Mac tools. NPM packages are often called "node modules."
+Run the Terminal command `which node` to check that Node.js was installed. The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like the right hand side of repl.it.  Type `control+C` twice to quite out of the REPL and return to the normal Terminal commands.  
+
+The Node Package Manager, used through various `npm` commands, is a lot like Homebrew, except we'll use it for Node.js-specific tools instead of for general Mac tools. NPM packages are often called "node modules."
 
 ### Nodemon
 
@@ -154,7 +155,7 @@ npm install -g nodemon
 
 ## MongoDB
 
-MonogDB is a popular noSQL database.
+MonogDB is a popular noSQL database.  We'll use it to store data with our Node.js stack. 
 
 1. Run brew update to update our brew packages.
 
@@ -214,7 +215,7 @@ Run the following command to install the latest version of Ruby, as well as RVM.
 \curl -L https://get.rvm.io | bash -s stable --ruby
 ```
 
-<!--![image](./install_rvm.png)-->
+![image](./install_rvm.png)
 
 
 ####Install Ruby on Rails 4
