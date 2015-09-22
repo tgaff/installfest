@@ -7,17 +7,16 @@ Based on https://github.com/wdi-sf-july/installfest
 * split into multiple readmes so it's not crazy long / hard to read?
 * check that Maverick Xcode/Command Line Tools instructions also apply for Yosemite
 * completely replace Maverick suggestion with 'upgrade to yosemite'?
-* completely remove ubuntu and windows instructions?
 * copy over images from wdi-sf-july if wanted  
-* sublime and emmet?
+* add sublime and emmet
 
 ## Done
 
-* commented out ubuntu and windows instructions sections
 * included instructions for PostgreSQL
 * included instructions for Node.js
 * included instructions for MongoDB
 * added a few notes on what things are / why installing
+* completely removed ubuntu and windows instructions
 ```
 
 ![GA_Logo](https://raw.github.com/generalassembly/ga-ruby-on-rails-for-devs/master/images/ga.png)
@@ -263,65 +262,3 @@ Do not follow these instructions unless you have already tried the Postgres.app 
 <a href="http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew/" target="_blank">Instructions for installing postgreSQL with homebrew.</a>
 
 
-<!--#Ubuntu Instructions -->
-
-
-
-<!--##apt-get-->
-
-<!--###Install apt-get-->
-<!--```-->
-<!--sudo apt-get install curl-->
-<!--```-->
-
-<!--##rvm & ruby-->
-
-<!--###Install RVM-->
-<!--```-->
-<!--\curl -L https://get.rvm.io | bash -s stable --ruby-->
-<!--```-->
-
-
-<!--##rails-->
-
-<!--###Install Rails 4-->
-<!--```-->
-<!--gem install rails-->
-<!--```-->
-
-
-<!--##git-->
-
-<!--###Install git-->
-<!--```-->
-<!--sudo apt-get install git-core-->
-<!--```-->
-
-<!--###Update git config information-->
-
-<!--```-->
-<!--git config --global user.name "YOUR-USERNAME"-->
-<!--git config --global user.email YOUR-EMAIL-ADDRESS-->
-<!--git config --global credential.helper cache-->
-<!--```-->
-
-
-<!--===-->
-
-<!--#Windows Users-->
-
-
-<!--**Ruby Installer:**-->
-
-<!--The install on Windows is actually very with the bundle from [rubyinstaller.org](http://www.rubyinstaller.org)-->
-
-<!--Just be sure to grab the 2.0.0 version, as that will be the version we will be using in class. This will set up your environment and you can start running ruby files right away. -->
-
-<!--To install rails, run the following command `gem install ruby`-->
-
-
-<!--**Extra command line tools: **-->
-
-<!--We will be using the command line a lot here. On Windows I also like to install gow. Gow is a bunch of unix command line tools ported to Windows. It will make it easy to follow in class with the same commands as your Mac buddies. -->
-
-<!--[https://github.com/bmatzelle/gow/wiki](https://github.com/bmatzelle/gow/wiki)-->
