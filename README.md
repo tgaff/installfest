@@ -9,11 +9,12 @@ Based on https://github.com/wdi-sf-july/installfest
 * completely replace Maverick suggestion with 'upgrade to yosemite'?
 * completely remove ubuntu and windows instructions?
 * copy over images from wdi-sf-july if wanted
+* include more detailed instructions for PostgreSQL
 
 ## Done
 
 * commented out ubuntu and windows instructions sections
-* included instructions for PostgreSQL
+* included `brew install postgresql`
 * included instructions for Node.js
 * included instructions for MongoDB
 * added a few notes on what things are / why installing
