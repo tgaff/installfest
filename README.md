@@ -8,8 +8,9 @@ Based on https://github.com/wdi-sf-july/installfest
 * check that Maverick Xcode/Command Line Tools instructions also apply for Yosemite
 * completely replace Maverick suggestion with 'upgrade to yosemite'?
 * completely remove ubuntu and windows instructions?
-* copy over images from wdi-sf-july if wanted
-* include more detailed instructions for PostgreSQL
+* copy over images from wdi-sf-july if wanted  
+* include more detailed instructions for PostgreSQL  
+* sublime and emmet?
 
 ## Done
 
@@ -125,7 +126,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
      [Generating SSH Keys (via Github.com)](https://help.github.com/articles/generating-ssh-keys)
 
-## Node.js and Express Tools
+## Node.js
 
 Basic Plan:
 
@@ -145,7 +146,42 @@ Run the Terminal command `which node` to check that Node.js was installed.
 
 Node.js comes with some cool tools, including `node` and `npm`.  The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like from repl.it.  Type `control+C` twice to quite out of the REPL and return to the normal Terminal commands.  The Node Package Manager, used through various `npm` commands, is a lot like Homebrew, except we'll use it for Node.js-specific tools instead of for general Mac tools. NPM packages are often called "node modules."
 
+### Nodemon
+
+Nodemon (short for "node monitor") will make our node.js server workflow more efficient.
+
+```
+npm install -g nodemon
+```
+
 ## MongoDB
+
+MonogDB is a popular noSQL database.
+
+1. Run brew update to update our brew packages.
+
+  ```bash
+  $ brew update
+  ```
+1. Run `brew install` for **MongoDB**
+
+  ```bash
+  $ brew install mongodb
+  ```
+
+1. Then we'll need a directory for **MongoDB** to save data.
+
+  ```bash
+  $ sudo mkdir -p /data/db
+  ```
+
+1. Finally we'll want to make sure we have permission to read and write to this directory.
+
+  ```bash
+  $ sudo chown -R $USER /data/db
+  ```
+
+1. Run the command `which mongod` to test whether the install worked.   
 
 ## Ruby on Rails Tools
 
