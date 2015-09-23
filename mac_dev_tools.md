@@ -60,6 +60,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 	bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
 	```
 
+1. Let's install our first simple package with homebrew: `tree`!  This package adds a command to your Terminal that displays files in a tree view.  Enter the following command in your Terminal:
+
+	```
+	brew install tree
+	```
+
 
 ## Git
 
