@@ -108,7 +108,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
 1. Open the Sublime Text 3 application. 
 
-### Add Package Control and Packages
+### Add Package Control
 
 Sublime Text has its own very popular package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development package called Emmet and a JavaScript syntax helper called a "linter".
 
@@ -117,6 +117,9 @@ Sublime Text has its own very popular package manager called Package Control. We
    -  enter the text into the bottom rectangle of the Sublime Text console.
 
 1. We access Package Control through the Sublime Text command palette. Open the palette by pressing `cmd+shift+p` from within Sublime Text. Type `Package Control`  in the command palette to see the list of things Package Control can do.
+
+
+### Add Packages
 
 1. Let's install our first package, Emmet.  Select `Package Control: Install Package` to bring up the list of available packages. 
 
