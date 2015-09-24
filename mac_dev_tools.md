@@ -150,5 +150,5 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
 	
 	```
-	git config --global core.editor "vim"
+	git config --global core.editor "subl"
 	```
