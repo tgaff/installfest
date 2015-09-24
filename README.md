@@ -3,7 +3,9 @@
 
 #WDI Installfest 
 
-We are going to install most of the tools we'll use in this course onto your computer. The tools and technologies we'll install fall into three categorie, so we have three sets of instructions to go through in order:
+We are going to install most of the tools we'll use in this course onto your computer today. 
+
+The tools and technologies we'll install fall into three categorie, so we have three sets of instructions to go through in order:
 
 1. <a href="https://github.com/sf-wdi-22-23/installfest/blob/master/mac_dev_tools.md" target="_blank">basic tools for web development on Mac OS X</a>
 2. <a href="https://github.com/sf-wdi-22-23/installfest/blob/master/express_stack.md" target="_blank">tools specific to our Node.js and Express development stack</a>
