@@ -157,3 +157,15 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 ## Chrome
 
 1. <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">Download and install the Chrome web browser with these instructions.</a>
+
+
+## Other tools
+
+### ShiftIt
+ShiftIt helps to manage your desktop layout.  As a developer and as a student you'll often have multiple windows open at once.  ShiftIt gives you quick shortcut keys to resize and reposition your windows to the left, right, up or down.  
+
+1. Download: https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
+2. Unzip and drag it into "Applications"
+3. In the finder, go to applications.  Right-click on shiftit and open.  (If prompted click 'open')
+4. You should see an icon for it at the top of your screen.
+5. Click on another window and try ctrl + opt + Command + left-arrow
