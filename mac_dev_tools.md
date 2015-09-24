@@ -124,4 +124,31 @@ Sublime Text has its own very popular package manager called Package Control. We
 
 1. Select `Emmet` from the list, and Package Control will install it for you!  (Start typing "Emmet" in the search bar to narrow down the list.)
 
-The other package we plan to add, jshint, requires Node.js.  We'll get it in the next set of instructions, <a href="https://github.com/sf-wdi-22-23/installfest/blob/master/express_stack.md" target="_blank">Express Stack</a>.
+The other package we plan to add, jshint, requires Node.js.  We'll get to it in the next set of instructions, <a href="https://github.com/sf-wdi-22-23/installfest/blob/master/express_stack.md" target="_blank">Express Stack</a>.
+
+### Access Sublime from the Terminal
+
+Sublime Text 3 includes a program that launches Sublime from the Terminal.  We'll use the `ln` command to link that program to a simple `subl` command. 
+
+1. To run a program from the Terminal, it needs to be available on your $PATH. The next step assumes `/usr/local/bin` is in your $PATH, so let's check that.  Run the following command from the Terminal to see your current $PATH:
+	
+	```
+	echo $PATH
+	```
+
+1. Run the following command in your Terminal to set up the link:
+	```
+	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+	```
+
+1. Type `subl . ` in the Terminal, and Sublime Text 3 should open!
+
+### Configure git to use Sublime
+
+When you forget to enter a commit message in the Terminal, git opens a text editor and reminds you to add a commit message.  
+
+1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
+	
+	```
+	git config --global core.editor "vim"
+	```
