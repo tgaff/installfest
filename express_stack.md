@@ -2,7 +2,7 @@
 
 Most of the coding work we do in weeks 3 to 5 will be driven by the back end web development framework <a href="http://expressjs.com/" target="_blank">Express</a>. We'll install express as we go, on a project-by-project basis. For now, we'll install other tools we'll use along with Express.
 
-Basic Plan:
+**Plan overview:**
 
 1. Install Node.js, a platform for back end web development with the JavaScript programming language. 
 2. Install JSHint and its Sublime Text packages to get realtime JavaScript syntax hints.
