@@ -8,6 +8,7 @@
 2. Install Homebrew - a package manager for Mac.  (Package managers are programs that help you install external tools and keep them up to date.)
 3. Configure git - a version control system. (Version control systems are programs that help you keep track of changes in your code.)
 4. Install and configure Sublime Text - a text editor specialized for writing code.
+5. Install the Chrome web browser.
 
 If you do not yet have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
@@ -152,3 +153,7 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 	```
 	git config --global core.editor "subl"
 	```
+
+## Chrome
+
+1. <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">Download and install the Chrome web browser with these instructions.</a>
