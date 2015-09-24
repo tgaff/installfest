@@ -43,6 +43,8 @@ If you must run a version of OS X before Maverick, you will need to install Comm
 
 <a href="http://brew.sh/" target="_blank">Homebrew</a> is a *package manager* for OS X.  We'll use to quickly download and install other tools we use, or to update already installed tools. 
 
+* **NOTE:** if you already have homebrew run `brew update` and then `brew doctor`.  Let us know if you run into problems.
+
 1. Open up the application Terminal and run the command below to install Homebrew. Wait while homebrew is downloaded and installed.
 
 ```
