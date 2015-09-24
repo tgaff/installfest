@@ -1,4 +1,4 @@
-#Installfest Step 2: Express Stack (Node.js and MongoDB)
+#Installfest Step 2: Express Stack
 
 Most of the coding work we do in weeks 3 to 5 will be driven by the back end web development framework <a href="http://expressjs.com/" target="_blank">Express</a>. We'll install express as we go, on a project-by-project basis. For now, we'll install other tools we'll use along with Express.
 
