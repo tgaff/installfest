@@ -1,7 +1,7 @@
 #Installfest Step 1: General Mac Development Tools
 
 
-**Plan of Attack:**
+**Plan overview:**
 
 1. Upgrade operating system to Maverick or Yosemite.   
 1. Install Xcode and Command Line Tools - the most basic built-in coding tools for Mac.  
