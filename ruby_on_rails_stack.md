@@ -1,9 +1,9 @@
-# Installfest Step 3: Ruby on Rails Stack (Ruby, Rails, PostgreSQL)
+# Installfest Step 3: Ruby on Rails Stack
 
 **Plan overview:**
 
 1. Update your install of the ruby programming language and install rvm to manage versions of ruby.
-2. Install Ruby on Rails, a back end web development framework for thr ruby programming language.
+2. Install Ruby on Rails, a back end web development framework for the ruby programming language.
 3. Install PostgreSQL, a database.
 
 ## Check Previous Installs
@@ -47,9 +47,9 @@ Ruby packages are referred to as "gems".
 
 1. Download <a href="http://postgresapp.com/" target="_blank">Postgres.app</a>.
 
-2. Follow Postgress.app's install instructions (move Postgres into your Applications folder).
+2. Follow Postgress.app's install instructions (move Postgres.app into your Applications folder).
     
-3. Follow Postgres.app's <a href="http://postgresapp.com/documentation/cli-tools.html" target="_blank">instructions to install command line tools: 
+3. Follow Postgres.app's <a href="http://postgresapp.com/documentation/cli-tools.html" target="_blank">instructions to install command line tools</a>: 
   * add Postgres.app to your `$PATH`
 
       ```bash
