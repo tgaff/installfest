@@ -1,8 +1,12 @@
 # Installfest Step 3: Ruby on Rails Stack (Ruby, Rails, PostgreSQL)
 
-Our Ruby on Rails stack will reuse the front end tools we start the class with. It will introduce Ruby on Rails as our back end framework and PostgreSQL as our database. 
+**Plan overview:**
 
-###Verify Previously Installed Versions
+1. Update your install of the ruby programming language and install rvm to manage versions of ruby.
+2. Install Ruby on Rails, a back end web development framework for thr ruby programming language.
+3. Install PostgreSQL, a database.
+
+## Check Previous Installs
 
 If you have already experimented with ruby or Ruby on Rails before, verify your versions are correct for this upcoming class.
 
@@ -14,46 +18,38 @@ If you have already experimented with ruby or Ruby on Rails before, verify your 
 If you are using an earlier version of ruby or Ruby on Rails, continue with the instructions to get your environment set up. Run these version commands in the Terminal again after you're done to ensure everything is working properly.
 
 
-### Install RVM and Rails
+##RVM and Ruby
 
-####RVM and Ruby
+<a href="http://www.rvm.io" target="_blank">RVM</a> is a Ruby Version Manager. It lets you easily switch between versions of the ruby programming language.
 
-RVM is a Ruby Version Manager. It lets you easily switch between versions of the ruby programming language.
+1. Run the following command to install both RVM and the latest version of Ruby.
 
-####Install RVM with Ruby
+    ```
+    \curl -L https://get.rvm.io | bash -s stable --ruby
+    ```
 
-[http://www.rvm.io](http://www.rvm.io) for full instructions
+## Ruby on Rails 4
 
+Ruby packages are referred to as "gems".  
 
-Run the following command to install the latest version of Ruby, as well as RVM.
+1. Use the following command to install Ruby on Rails 4.
+    
+    ```
+    gem install rails
+    ```
 
-```
-\curl -L https://get.rvm.io | bash -s stable --ruby
-```
-
-![image](./install_rvm.png)
-
-
-####Install Ruby on Rails 4
-
-After you have installed ruby, we will install a version of Ruby on Rails 4 for the class.
-
-```
-gem install rails
-```
-
-If this causes errors on your machine, try running `sudo gem install rails` instead.
+1. If this causes errors on your machine, try running `sudo gem install rails` instead.
 
 
-### PostgreSQL  
+## PostgreSQL  
 
-#### Postgres.app
+### Postgres.app (preferred)
 
-1. Download [Postgres.app](http://postgresapp.com/).
+1. Download <a href="http://postgresapp.com/" target="_blank">Postgres.app</a>.
 
 2. Follow Postgress.app's install instructions (move Postgres into your Applications folder).
     
-3. Follow Postgres.app's [instructions to install command line tools](http://postgresapp.com/documentation/cli-tools.html): 
+3. Follow Postgres.app's <a href="http://postgresapp.com/documentation/cli-tools.html" target="_blank">instructions to install command line tools: 
   * add Postgres.app to your `$PATH`
 
       ```bash
@@ -74,8 +70,6 @@ If this causes errors on your machine, try running `sudo gem install rails` inst
 
 #### Alternate install with homebrew
 
-Do not follow these instructions unless you have already tried the Postgres.app instructions and spoken to a member of the teaching team.  
-
-<a href="http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew/" target="_blank">Instructions for installing postgreSQL with homebrew.</a>
+If you have already tried the Postgres.app instructions and spoken to a member of the teaching team, you may need to follow these <a href="http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew/" target="_blank">instructions for installing postgreSQL with homebrew.</a>
 
 
