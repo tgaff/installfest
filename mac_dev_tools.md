@@ -8,13 +8,12 @@
 2. Install Homebrew - a package manager for Mac.  (Package managers are programs that help you install external tools and keep them up to date.)
 3. Configure git - a version control system. (Version control systems are programs that help you keep track of changes in your code.)
 4. Install and configure Sublime Text - a text editor specialized for writing code.
-5. Install the Chrome web browser.
 
 If you do not yet have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
 ## Operating System and Command Line Tools
 
-Before class starts, we suggest you upgrade your operating system to OS X Maverick or Yosemite. We do not recommend that you use El Capitan *yet* because some of the tools we use have not been updated for El Capitan.  **Do not upgrade your operating system after WDI starts.** 
+Before class starts, we suggest you upgrade your operating system to OS X Maverick or Yosemite. We do not recommend that you use El Capitan *yet* because some of the tools we use have not been updated for El Capitan.  **Do not upgrade your operating system during WDI.** 
 
 To check what version of OS X you are running:  
 1. Click the apple icon in the top left of your screen.  
@@ -102,7 +101,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
 1. Use the following link to <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg">download Sublime Text 3</a>. 
 
-1. Open the file.
+1. Open the downloaded file.
 
 1. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
 
@@ -110,7 +109,7 @@ Configuring your git settings to help GitHub track your contributions and to mak
 
 ### Add Package Control
 
-Sublime Text has its own very popular package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development package called Emmet and a JavaScript syntax helper called a "linter".
+Sublime Text has its own very popular package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development shortcut package called Emmet and a JavaScript syntax helper jshint.
 
 1. Follow <a href="" target="_blank">Package Control's  "simple installation" instructions</a> to add Package manager to your Sublime Text. When you paste the large block of text, make sure you:
    -  use the Sublime Text 3 version, and   
@@ -124,3 +123,5 @@ Sublime Text has its own very popular package manager called Package Control. We
 1. Let's install our first package, Emmet.  Select `Package Control: Install Package` to bring up the list of available packages. 
 
 1. Select `Emmet` from the list, and Package Control will install it for you!  (Start typing "Emmet" in the search bar to narrow down the list.)
+
+The other package we plan to add, jshint, requires Node.js.  We'll get it in the next set of instructions, <a href="https://github.com/sf-wdi-22-23/installfest/blob/master/express_stack.md" target="_blank">Express Stack</a>.
